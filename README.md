@@ -3,17 +3,20 @@
 ## Quick Start
 
 # Install dependencies
- npm install
- npm start
-
+```bash
+npm install
+npm start
 ```
-To query and get content using the APIs, client applications need to authenticate with both the Space ID and an access token. So, create account in contentful and then create an App. 
+
+```bash
+To query and get content using the APIs, client applications need to authenticate with both the Space ID and an access token. So, create account in contentful and then create an App.
 
 API keys of your app will be in setting -> API keys section
 
 Now, create an .env.development file in yor project and add your keys.
-
 ```
+
+```bash
 REACT_APP_API_SPACE=YOUR_SPACE
 REACT_APP_API_ACCESS_TOKEN=YOUR_ACCESS_TOKEN
 
